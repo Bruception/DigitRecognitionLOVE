@@ -46,7 +46,7 @@ local function findMaxIndex(input)
   return maxIndex - 1
 end
 
-local myNN = NeuralNetwork:new()
+local myNN = NeuralNetwork
 local sample = TR_DIGITS
 
 local timer = 1
