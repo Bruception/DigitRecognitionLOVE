@@ -5,11 +5,7 @@ local lg = love.graphics
 
 local NeuralNetwork = {}
 
-NeuralNetwork.__index = NeuralNetwork
-
-function NeuralNetwork:new()
-  local self = {}
-
+function NeuralNetwork:init()
   ---------- LAYERS ------------
   self.input = Matrix:new(1, 784)
 
@@ -39,7 +35,7 @@ function NeuralNetwork:new()
   ------- HYPER PARAMETER(S) --------
   self.lr = -0.1
 
-  return setmetatable(self, NeuralNetwork)
+  return self
 end
 
 local function sigmoid(x)
@@ -184,4 +180,4 @@ function NeuralNetwork:draw()
 
 end
 
-return NeuralNetwork
+return NeuralNetwork:init()
