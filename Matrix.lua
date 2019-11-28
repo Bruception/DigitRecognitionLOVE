@@ -14,7 +14,7 @@ function Matrix:new(n, m, value)
   for i = 1, self.n do
     self.matrix[i] = {}
     for j = 1, self.m do
-      self.matrix[i][j] = value and value or 0
+      self.matrix[i][j] = value or 0
     end
   end
 
