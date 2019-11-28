@@ -2,6 +2,9 @@
 A simple digit classifier made with LÖVE.
 
 
+![MLP Image](https://github.com/Bruception/DigitRecognitionLOVE/blob/master/network.png?raw=true)
+
+
 ### IMPORTANT!
 
 - The MNIST data set is too big to include in this repository.
