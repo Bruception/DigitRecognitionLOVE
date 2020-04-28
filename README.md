@@ -1,5 +1,5 @@
 # DigitRecognitionLOVE
-A simple digit classifier made with LÖVE.
+A simple digit classifier made with LÖVE. Built from scratch. 
 
 
 ![MLP Image](https://github.com/Bruception/DigitRecognitionLOVE/blob/master/network.png?raw=true)
