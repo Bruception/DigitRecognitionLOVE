@@ -57,6 +57,7 @@ local function MSError(output, expected)
   return sum / 10
 end
 
+-- Feedforward can be improved
 function NeuralNetwork:feedforward(pixels, expected)
 
   for i = 0, 783 do
@@ -83,6 +84,8 @@ function NeuralNetwork:feedforward(pixels, expected)
   return oOut, error
 end
 
+-- This implementation can be improved.
+-- Need to study more calculus and linear algebra :P
 function NeuralNetwork:backpropagate(expected)
   local expectedMatrix = Matrix:new(1, 10)
 
