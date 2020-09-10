@@ -1,4 +1,4 @@
-# DigitRecognitionLOVE
+# Digit Classifier
 A simple digit classifier made with LÖVE. Built from scratch. 
 
 
